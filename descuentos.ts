@@ -1,10 +1,10 @@
 let btnEnv = document.getElementById("btnEnviar");
-let dato = document.getElementById("dato");
-let rotulo = document.getElementById("rotulo");
+let precio = document.getElementById("precio");
+const descuento: number = 10;
 
-btnEnv.addEventListener("click" , () => {
-// TU CODIGO VA AQUI, POR EJEMPLO:
-console.log("el dato ingresado es ",dato.value);
-//}
+btnEnv.addEventListener("click", () => {
+  let precios: number = Number(precio.value);
+  let total: number = precios / descuento;
+  let precioF: number = precios - precioF;
+  console.log("el dato ingresado es ", precioF);
 });
-
